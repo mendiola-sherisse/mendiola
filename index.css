@@ -1,0 +1,95 @@
+body {
+    background-color: #2B1E15;
+    font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    color: #2B1E15;
+    font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 50px;;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #2B1E15;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    }
+      
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+nav li {
+    margin: 0 5px;
+    }
+      
+nav a {
+    color: #DBD1CA;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    letter-spacing: 1px;
+    }
+
+nav a:hover {
+    background-color: #4D3626;
+    color: #DBD1CA;
+    font-weight: bold;
+    }
+      
+nav a i {
+    margin-right: 8px;
+    font-size: 16px;
+    }
+      
+nav a:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    }
+      
+
+.welcome-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #2B1E15;
+    font-family: Garamond, Georgia, serif;
+    font-size: 50px;
+    margin: 150px  0 0 0;
+    
+}
+
+.welcome-section p {
+    color: #6F4E37;
+    font-size: 20px;
+    margin: 0;
+}
+
+.index{
+  background-color:#DBD1CA;
+  margin: 50px;
+  padding-top: 22px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  color:#2B1E15;
+}
